@@ -1,0 +1,5 @@
+config HELLO_EXAMPLE
+	bool "Hello Example function"
+	depends on LIB_EXAMPLE
+	help
+		This is a test example.

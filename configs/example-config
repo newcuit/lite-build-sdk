@@ -1,0 +1,20 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# Package  Configuration
+#
+
+#
+# package build system
+#
+CONFIG_HAVE_DOT_CONFIG=y
+CONFIG_OPTIMIZE_LEVEL3=y
+# CONFIG_DEBUG is not set
+CONFIG_USE_CXX11_ABI=y
+CONFIG_TRACE=y
+
+#
+# packages
+#
+CONFIG_HELLO_EXAMPLE=y
+CONFIG_LIB_EXAMPLE=y
+# end of packages

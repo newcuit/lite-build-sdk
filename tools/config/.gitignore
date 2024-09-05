@@ -1,0 +1,4 @@
+lexer.yy.c
+mconf
+parser.tab.c
+parser.tab.h

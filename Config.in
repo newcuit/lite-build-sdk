@@ -1,0 +1,25 @@
+mainmenu "Package $(VERSION) Configuration"
+
+comment "package build system"
+
+config HAVE_DOT_CONFIG
+	bool
+	default y
+
+config OPTIMIZE_LEVEL3
+	bool "optimize level 3 (-O3)"
+	default n
+
+config DEBUG
+	bool "Debug mode"
+	default n
+
+config USE_CXX11_ABI
+	bool "use cxx11 abi"
+	default y
+
+config TRACE
+	bool "trace function"
+	default y
+
+source "package/Config.in"

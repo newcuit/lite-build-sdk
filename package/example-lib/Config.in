@@ -1,0 +1,4 @@
+config LIB_EXAMPLE
+	bool "Hello example library"
+	help
+		This is a test example library.

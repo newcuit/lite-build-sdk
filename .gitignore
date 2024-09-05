@@ -1,0 +1,6 @@
+*.o
+.tmp
+build_dir
+.config
+.config.old
+download

@@ -1,0 +1,5 @@
+menu "packages"
+
+source "$(CONFIG_DIR_BASE)/package/Config.in"
+
+endmenu
